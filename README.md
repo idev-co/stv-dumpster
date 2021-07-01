@@ -1,2 +1,2 @@
-# bt-dumpster
+# stv-dumpster
 Dumpster Diving - Bt-Target
