@@ -5,7 +5,7 @@ local canSearch = true
 local dumpsters = {218085040, 666561306, -58485588, -206690185, 1511880420, 682791951}
 local searchTime = 0
 local dumpsterTrigger = false
-local ped = GetPlayerPed(-1)
+local ped = PlayerPedId()
 
 Citizen.CreateThread(function()
     while ESX == nil do
@@ -51,7 +51,7 @@ Citizen.CreateThread(function()
     while true do
         Citizen.Wait(100)
         if canSearch then
-            local ped = GetPlayerPed(-1)
+            local ped = PlayerPedId()
             local pos = GetEntityCoords(ped)
             local dumpsterFound = false
 
@@ -97,7 +97,7 @@ end)
 function startSearching(time, dict, anim, cb)
     local animDict = dict
     local animation = anim
-    local ped = GetPlayerPed(-1)
+    local ped = PlayerPedId()
 
     canSearch = false
 
@@ -126,7 +126,7 @@ function startSearching(time, dict, anim, cb)
     Citizen.Wait(30000)
     DisableControlAction(0, 245) --309
     DisableControlAction(0, 309)
-    local ped = GetPlayerPed(-1)
+    local ped = PlayerPedId()
 
     Wait(time)
     ClearPedTasks(ped)
