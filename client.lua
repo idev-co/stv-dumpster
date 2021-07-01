@@ -94,7 +94,7 @@ end)
 
 -- Functions
 
-function startSearching(time, dict, anim, cb)
+local function startSearching(time, dict, anim, cb)
     local animDict = dict
     local animation = anim
     local ped = PlayerPedId()

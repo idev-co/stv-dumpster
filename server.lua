@@ -71,7 +71,7 @@ AddEventHandler('stv:giveDumpsterReward', function()
  end
 end)
 
-function startTimer(id, object)
+local function startTimer(id, object)
     local timer = 10 * 60000
 
     while timer > 0 do
