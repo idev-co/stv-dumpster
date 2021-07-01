@@ -1,5 +1,6 @@
 ## stv-dumpster
 This script allows players to search any dumpster in the game to acquire items that they find. This is easily modifiable and can have the potential to be a good resource
+Code from [OnyxDumpster](https://github.com/HiHowdy/onyxDumpsters)
 
 ### Features
 * Search any dumpster in the city
