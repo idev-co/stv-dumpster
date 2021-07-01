@@ -1,5 +1,5 @@
 ## stv-dumpster
-This script allows players to search any dumpster in the game to acquire items that they find. This is easily modifyable and can have the potential to be a good resource
+This script allows players to search any dumpster in the game to acquire items that they find. This is easily modifiable and can have the potential to be a good resource
 
 ### Features
 * Search any dumpster in the city
