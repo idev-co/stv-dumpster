@@ -12,3 +12,6 @@ This script allows players to search any dumpster in the game to acquire items t
 * [mythic_progbar](https://github.com/HalCroves/mythic_progbar)
 * [bt-target](https://github.com/brentN5/bt-target)
 * ESX
+
+### Preview
+* Coming Soon...
